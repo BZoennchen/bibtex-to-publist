@@ -1,0 +1,46 @@
+body {
+  font-family: "Cooper Hewitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  color: #03001B
+}
+
+.publications {}
+
+.entry {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.copy-button {
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #3C3C5A;
+  color: white;
+  border: none;
+  border-radius:5px;
+  font-size: 11px;
+}
+.copy-button:hover {
+  background-color: #6200FF;
+}
+
+.entry-title {
+  color: #6200FF;
+  font-weight: bold;
+}
+
+pre {
+  display: none;
+}
+
+a:link {
+  color: #6200FF; /* Base color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6200FF; /* Lighter/brighter version for hover state */
+  text-decoration: underline; /* Optional for hover */
+}
